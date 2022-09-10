@@ -1,0 +1,43 @@
+name: Aztechnology
+tier: V
+hold: W
+status: '0'
+logo: aztechnology.png
+description: >
+    Aztechnology jest trzecią największą na świecie korporacją, właścicielem państwa Aztlán (dawny Meksyk) ze stolicą w 
+    Tenochtitlan. Dla zwykłego obywatela znana jako przyjazna korporacja o nieskazitelnej reputacji prowadząca działalność
+    dobroczynną i prowadząca ludzkość w piękniejsze jutro; tak naprawdę jest rozrośniętym brutalnym kartelem narkotykowym,
+    który wykorzystuje rytualne ofiary ludzkie, by osiągnąć swe cele. Jeżeli biegasz przeciw nim - upewnij się, że nie 
+    zostawiłeś żadnych śladów.
+
+    W Berlinie rok temu została wysadzona ich arkologia. Pogłoski na ulicy mówią, że dalej szukani są winni. W trakcie
+    odbudowy arkologii Aztech próbuje rozszerzyć terytorium korporacyjne na miejsca zajmowane przez Flux State - co ciekawe,
+    od czasu zamachu nie mają się w tym zakresie czym chwalić...
+hq: 
+    desc: >
+        Dzielnica Aztech-Schonwalde. W jej granicach znajdują się biura dziesiątek korporacji, a także niektóre budynki
+        masowego użytku. Główna arkologia w kształcie azteckiej piramidy w stanie odbudowy, minimalnie funkcjonalna.
+    img: aztechnology_hq.jpg
+assets: 
+    - Prywatna armia, mercenaries, you name it
+    - Cała dzielnica Aztech-Schonwalde 
+    - <<Kilku magów krwi na żądanie.>>
+npcs:
+    - name: Victor Hernandez
+      desc: lokalny CEO, bezwzględny<<, zdeprawowany, porywczy>>
+    - name: Alejandra Ortega
+      desc: CMO (Chief Magic Officer), arcymistrzyni magii aztlańskiej<<, sadystka, efektywna, morderczyni>>
+friends:
+    - Samsa
+    - Schering << - subsidiary >>
+    - Berlinrat
+    - Blutmage
+enemies:
+    - Flux State
+    - Monika Schäfer
+    - Saeder-Krupp
+    - Ares Macrotechnology
+clocks:
+    - size: 8
+      filled: 1
+      desc: Odbudowa arkologii

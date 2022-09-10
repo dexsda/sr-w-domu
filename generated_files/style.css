@@ -5,13 +5,16 @@ h4.factionlink {
     cursor: pointer;
 }
 
-h4 .clock {
+h4 .logo {
     vertical-align: middle;
 }
 
 img.clock {
     width: 25px;
 }
+img.logo {
+    width: 40px;
+} 
 
 img.hqpic {
     float: right;

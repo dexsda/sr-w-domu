@@ -18,7 +18,7 @@ def format_paragraphs(description):
     return re.sub(r"\n", r"\n</p><p>", description, flags=re.MULTILINE)
 
 def print_faction_entry(data, gm, faction):
-    print(f'    <li><h4 class="factionlink" onclick="toggleDisplay(\'{faction}\')"><img class="clock" src="logos/{data["logo"]}"> {data["name"]}: {data["tier"]} {data["hold"]}, status: {data["status"]} </h4>')
+    print(f'    <li><h4 class="factionlink" onclick="toggleDisplay(\'{faction}\')"><img class="logo" src="logos/{data["logo"]}"> {data["name"]}: {data["tier"]} {data["hold"]}, status: {data["status"]} </h4>')
     print(f'         <div class="factionbox" id="{faction}" style="display:none">')
     print(f'<img src="pics/{data["hq"]["img"]}" class="hqpic"/> <p>{format_paragraphs(data["description"])}</p><h5>Miejsce</h5><p>{format_paragraphs(data["hq"]["desc"])} </p>')
 
