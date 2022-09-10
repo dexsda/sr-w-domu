@@ -1,0 +1,86 @@
+h1,h2, h3, h4, h5 {
+    color: #FFC600;
+}
+h4.factionlink {
+    cursor: pointer;
+}
+
+h4 .clock {
+    vertical-align: middle;
+}
+
+img.clock {
+    width: 25px;
+}
+
+img.hqpic {
+    float: right;
+    max-width: 300px;
+}
+
+body {
+    background-color: black;
+    color: #C0C0C0;
+    font-family: monospace;
+}
+
+span .clock {
+    vertical-align: middle;
+}
+
+div.factionbox {
+    border-style: dashed;
+    border-color: #E8A20C;
+    overflow: hidden;
+    padding: 5px;
+}
+
+div.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+li.enemy, li.friend {
+    list-style: none;
+}
+li.friend {
+    color: #00C000;
+}
+li.enemy {
+    color: #C00000;
+}
+
+li.enemy::before {
+    content: "\25bc\00a0\00a0";
+}
+
+li.friend::before {
+    content: "\25b2\00a0\00a0";
+}
+
+.npc { 
+    position: relative;
+    text-decoration: underline #FFC600;
+}
+
+.npc span {
+    display:none;
+    border-style: dashed;
+    border-color: #E8A20C;
+    overflow: hidden;
+    padding: 5px; 
+}
+
+.npc span img {
+    width: 200px;
+}
+
+.npc:hover span {
+    display:block;
+    position:absolute;
+    top:15;
+    left:0;
+    z-index:1000;
+    width:auto;
+    overflow:hidden;
+}

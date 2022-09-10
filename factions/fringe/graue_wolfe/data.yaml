@@ -1,0 +1,43 @@
+name: Graue Wölfe
+tier: II
+hold: W
+status: '-2'
+logo: wolf-logo.png
+description: >
+    Brutalny, okultystyczny  gang ludzkich supremacjonistów oraz pogan germańskich.  Prowadzony przez parę niestabilnych emocjonalnie magów; wieść gminna niesie, że planują zniszczyć okoliczny gang Szponów wszelkimi dostępnymi sposobami. 
+
+    Przygotowują się do rytuału o nieznanym celu, zbierając komponenty skupiające energię magiczną i religijną.
+hq: 
+    desc: >
+        Pozostałości kompleksu/mini-arkologii Mercedesa-Benza w kiezie pomiędzy Seretech-Allee i Holzmarkstrasse; główny budynek zniszczony przez dziwolągów pozujących za firmę dostarczającą gaz. W okolicznych budynkach dalej mieszkają cywile.
+
+        Liderka zabunkrowała się gdzieś w nieznanym miejscu. <<Dali jej puste biuro w Muller-Schlutter Infotech w arkologii S-K Templehof.>>
+    img: graue_wolfe_hq.jpg
+assets: 
+    - Wysokiej umiejętności hermetycznej pogańscy magowie.
+    - <<Kilka loż z minimalną mocą hermetyczną.>>
+    - <<Safehouse w arkologii S-K.>>
+npcs:
+    - name: Skelter
+      desc: lider, psychol, kultysta, rasista
+      img: skelter.jpg
+    - name: Anya
+      desc: pogańska mistrzyni ceremonii, ostrożna, ambitna<<, dominująca>>
+      img: anya.jpg
+friends:
+    - Humanis Policlub
+    - Muller-Schlutter Infotech << - subsidiary S-K >>
+    - Wolfsschanze
+enemies:
+    - Szpony
+    - Antifaschistische Aktion Berlin
+    - Rastas
+    - Lord Scurlock
+    - Cywile Holzmarkstrasse Kiez
+clocks:
+    - size: 8
+      filled: 1
+      desc: Zniszczyć Szpony.
+    - size: 4
+      filled: 1
+      desc: Przeprowadzić rytuał <<przywołania i związania demona.>>

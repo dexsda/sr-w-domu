@@ -1,0 +1,38 @@
+name: Polska Mafia
+tier: II
+hold: S
+status: '+1'
+logo: pruszkow-logo.png
+description: >
+    Rodzina Olszewskich z piątoświatowego Pruszkowa; po imigracji do Berlina znaleźli niszę w sprzedaży narkotyków z lokalnego kościoła gotyckiego.
+
+    Aktualnie walczą o kontrolę nad lokalnym Kiezem, w trakcie niesnasek pomiędzy Szponami a Szarymi Wilczurami. <<Dostarczają stuff do executiwów Messerschmitt-Kawasaki.>>
+hq: 
+    desc: >
+        Lokalny kościół gotycki pod wezwaniem św. Dunkelzahna, odrestaurowany. Popularny wśród neokatolików w okolicznych kiezach.
+
+        Codziennie msza neo-katolicka. Narkotyki sprzedawane w konfesjonałach.
+    img: polish_mafia_hq.jpg
+assets: 
+    - << Grupa opryszków, weteranów. >>
+    - << Fortyfikowany safehouse w jednej z anarchistycznych dzielnic. >>
+npcs:
+    - name: Róża Olszewska
+      desc: lider<<, chłodna, bezwzględna, morderczyni, street samurai>> 
+    - name: Maciuś
+      desc: bodyguard, syn<<, implanty oczne i refleksowe, broń biała, idiota>>
+friends:
+    - Kreuzritter
+    - Messerchmitt-Kawasaki 
+    - Cywile Holzmarkstrasse Kiez
+enemies:
+    - Graue Wolfe
+    - Liga de la Liberacion Metahumana
+    - Lord Scurlock
+clocks:
+    - size: 6
+      filled: 3
+      desc: Dominacja nad kiezem.
+    - size: 4
+      filled: 1
+      desc: Jorgnięcie, że próbujecie robić ich w chuja.

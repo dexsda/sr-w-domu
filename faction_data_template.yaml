@@ -1,0 +1,24 @@
+name: 
+tier: 
+hold: 
+status: '0'
+logo: logo_img_name.jpg
+description: >
+    desc
+hq: 
+    desc: >
+        desc
+    img: img_name.jpg
+assets: 
+    - asset
+npcs:
+    - name: npc name
+      desc: name <<desc>> 
+friends:
+    - Friend
+enemies:
+    - Lord Scurlock
+clocks:
+    - size: 6
+      filled: 0
+      desc: Example clock

@@ -1,0 +1,36 @@
+name: Szpony 
+tier: II
+hold: W
+status: '0'
+logo: talon-logo.png
+description: >
+    Organizacja przemytników, która stara się przejść na drogę bycia korporacją importową. Na razie znajduje się w sporze z Graue Wolfe i ze zobowiązaniami wobec mafii polskich imigrantów; próbują wykorzystać sytuację, by być w idealnej pozycji do porzucenia statusu gangu w kiezie.
+
+    Sporo członków organizacji to metaludzie, a sama organizacja stara się trzymać z dala od politycznych decyzji.
+hq: 
+    desc: >
+        Połowa piętra coworkingowego nad shopem z sojkawą, współdzielona z wydziałem administracyjnym Luxmedu. Oprócz tego stare magazyny w anarchistycznej części Berlina.
+    img: talons_hq.jpg
+assets: 
+    - Stare magazyny we wschodnim Berlinie.
+    - Pomoc medyczna w Luxmedzie. <<Czasem <b>wywołują</b> Luxmedowi więcej biznesu poprzez ataki na lokalnych ludzi.>>
+    - Mięśniacy wyposażeni w implanty zwiększające siłę.
+npcs:
+    - name: Winston
+      desc: szef, były enforcer<<, bezwzględny, porywczy, chce opuścić bycie kryminalistą>>
+    - name: Max
+      desc: szpieg<<, mistrz przebrania, implant feromonowy, double agent Schockwellenreiter>>
+friends:
+    - Luxmed                                  
+    - Liga de la Liberacion Metahumana
+enemies:
+    - Graue Wolfe
+    - Muller-Schluter Infotech
+    - Anarchistische Schwarze Kreuz
+clocks:
+    - size: 8
+      filled: 3
+      desc: Zniszczyć Graue Wolfe
+    - size: 6
+      filled: 2
+      desc: Zdobyć status korporacyjny w Berlinie.
