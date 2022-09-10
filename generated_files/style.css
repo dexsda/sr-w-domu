@@ -20,6 +20,9 @@ img.hqpic {
     float: right;
     max-width: 300px;
 }
+img.map {
+    max-width: 1000px;
+} 
 
 body {
     background-color: black;

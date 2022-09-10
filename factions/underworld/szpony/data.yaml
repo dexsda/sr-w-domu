@@ -11,6 +11,8 @@ hq:
     desc: >
         Połowa piętra coworkingowego nad shopem z sojkawą, współdzielona z wydziałem administracyjnym Luxmedu. Oprócz tego stare magazyny w anarchistycznej części Berlina.
     img: talons_hq.jpg
+    location:
+        mitte: [[1465, 280]]
 assets: 
     - Stare magazyny we wschodnim Berlinie.
     - Pomoc medyczna w Luxmedzie. <<Czasem <b>wywołują</b> Luxmedowi więcej biznesu poprzez ataki na lokalnych ludzi.>>

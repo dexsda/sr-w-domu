@@ -13,6 +13,8 @@ hq:
 
         Codziennie msza neo-katolicka. Narkotyki sprzedawane w konfesjonałach.
     img: polish_mafia_hq.jpg
+    location:
+        mitte: [[1525, 518]]
 assets: 
     - << Grupa opryszków, weteranów. >>
     - << Fortyfikowany safehouse w jednej z anarchistycznych dzielnic. >>

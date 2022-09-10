@@ -13,6 +13,8 @@ hq:
 
         Liderka zabunkrowała się gdzieś w nieznanym miejscu. <<Dali jej puste biuro w Muller-Schlutter Infotech w arkologii S-K Templehof.>>
     img: graue_wolfe_hq.jpg
+    location:
+        mitte: [[1390, 410]]
 assets: 
     - Wysokiej umiejętności hermetycznej pogańscy magowie.
     - <<Kilka loż z minimalną mocą hermetyczną.>>
