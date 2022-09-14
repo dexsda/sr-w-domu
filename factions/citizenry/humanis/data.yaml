@@ -1,0 +1,42 @@
+name: Humanis Policlub
+tier: V
+hold: W
+status: '0'
+logo: humanis.png
+description: >
+    Reinkarnacja Ku-Klux-Klanu wywołana masowym rodzeniem się elfów i innych metaludzi oraz Dniem Goblinizacji, stała się <i>de facto</i> największą rasistowską organizacją na świecie. W 2039 roku wywołali globalne zamieszki i pogromy zwane Dniem Gniewu; zamieszki te zostały stłumione i od tego czasu starają się utrzymywać obraz spokojnego klubu politycznego osiągającego cele poprzez metody pokojowe - w tym samym czasie utrzymując ścisłą współpracę z każdą lokalną organizacją zrzeszającą wszelkiego rodzaju rasistów.
+
+    W Berlinie są oni niczym więcej - i niczym mniej - niż organizacją neo-nazistowską. Stare postulaty o czystości rasowej i silnych wodzach nakierowali przeciwko metaludziom. W dzielnicach korporacyjnych często zbiorowiska ich zwolenników atakują napotkanych metaludzi.
+hq: 
+    desc: >
+        Cały blok w okolicy Jagerstrasse. Jednak największym problemem jest to, że zwolenników Humanis można spotkać wszędzie.
+    img: humanis_rally.jpg
+    location:
+        mitte: [[500, 675]]
+assets: 
+    - W każdej nieanarchistycznej dzielnicy kohorta rasistowskich zbirów.
+    - <<Dostęp do wysokiej jakości broni bojowej.>>
+    - <<Kohorta okultystycznych magów.>>
+npcs:
+    - name: Henrietta Holler
+      desc: liderka, charyzmatyczna, brutalna, implanty bojowe<<, seryjna morderczyni metaludzi>> 
+    - name: Klaus Kühnen
+      desc: mag, okultysta, sadysta<<, oportunista, hipokryta>>   
+friends:
+    - Graue Wolfe
+    - Wolfsschanze
+    - Vinternatt
+    - Catholic Kreuzritter
+    - Renraku
+enemies:
+    - Flux State
+    - Lord Scurlock
+    - Liga de la Liberacion Metahumana
+    - Antifaschistische Aktion Berlin
+clocks:
+    - size: 8
+      filled: 0
+      desc: Wywołanie pogromu w dzielnicy Berlina.
+    - size: 6
+      filled: 0
+      desc: Porwanie znanego działacza pro-metaludzkiego.

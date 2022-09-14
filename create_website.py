@@ -92,7 +92,10 @@ if __name__ == '__main__':
         print(f"<h2>{type}:</h2>")
         print("<ul>")
         for faction in sorted(os.listdir(f"factions/{type}")):
-            factions[faction] = yaml.safe_load(read_in_file(f'factions/{type}/{faction}/data.yaml', args.gm))
+            try:
+                factions[faction] = yaml.safe_load(read_in_file(f'factions/{type}/{faction}/data.yaml', args.gm))
+            except:
+                pass
 
         for faction in sorted(factions, key=lambda x: f'{tier_to_num[factions[x]["tier"]]}-{factions[x]["hold"]}-{x}'):
             print_faction_entry(factions[faction], args.gm, faction)

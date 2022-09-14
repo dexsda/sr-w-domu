@@ -1,0 +1,50 @@
+name: Flux State (Status F)
+tier: IV
+hold: W
+status: '0'
+logo: flux_state.png
+description: >
+    Powstały po Nocy Gniewu - globalnych zamieszek na tle rasowym i antymetaludzkim w 2039 - twór neoanarchistyczny zrzeszający
+    wszelkie lokalne organizacje lewicowe na terenie byłego wschodniego Berlina. Tak naprawdę ciężko nazwać go pojedynczą organizacją; jest
+    to raczej zbiór działań mających na celu utrzymać delikatny balans władzy pomiędzy różnorodnymi organizacjami i jak sama nazwa wskazuje,
+    działa bardzo płynnie.
+
+    By być w stanie reagować na próby ataków megakorporacji i znajdować nić porozumienia pomiędzy autonomicznymi organizacjami, wyjątkowo skuteczni działacze
+    na poziomie lokalnym często stają się łącznikami. Krytycy twierdzą, że prowadzi to do istnienia struktur niezgodnych z
+    ideami anarchizmu, ale nie można Stanowi Płynnemu odmówić wielu sukcesów - wszelkie zrzeszone organizacje faktycznie są autonomiczne, dzięki lokalnej
+    współpracy we wcześniej bardzo niebezpiecznej części Berlina nastał relatywny pokój i renesans socjalizmu, a do tego od czasu wybuchu arkologii 
+    Aztechnology Flux State zaczął nawet rozrastać się mimo nacisków megakorpo...
+
+    Należy też pamiętać, że mimo anarchistycznych korzeni częścią Flux State są też organizacje nielewicowe - jeżeli działają zgodnie z zasadami, 
+    czyli podejmują decyzje autonomicznie i nie przejmują kontroli nad innymi organizacjami. Skutkiem tego działają tam gangi, mikrokorporacje i
+    anarchokapitalistyczne kiezy.
+hq: 
+    desc: >
+        Z grubsza, wschodni Berlin. Nie istnieje coś takiego, jak kwatera Flux State.
+    img: berlin_anarchist_alley.jpg
+assets: 
+    - W każdej dzielnicy znajdą się ideowi anarchiści, którzy utrudnią działania wrogom Flux State na poziomie ulicznym - kohorta per dzielnicę.
+    - Możliwość wezwania do pomocy właściwie każdej organizacji sprzymierzonej w Berlinie - zegarek 4-segmentowy, by się dogadali.
+npcs:
+    - name: Brak
+      desc: no gods, no masters.
+friends:
+    - Schockwellenreiter
+    - Każda organizacja anarchistyczna
+    - Monika Schäfer 
+    - Rastas
+    - Liga de la Liberación Metahumana
+enemies:
+    - Każde megakorpo
+    - Każde nielokalne korpo
+    - AG Chemie
+    - Catholic Kreuzritter
+    - Humanis Policlub
+    - Wolfsschanze
+clocks:
+    - size: 12
+      filled: 0
+      desc: Przygotowanie do najazdu na dzielnicę korporacyjną
+    - size: 6
+      filled: 2
+      desc: Zaprowadzenie porządku w niebezpiecznej dzielnicy

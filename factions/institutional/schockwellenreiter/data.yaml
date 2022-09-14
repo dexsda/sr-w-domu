@@ -1,0 +1,52 @@
+name: Schockwellenreiter
+tier: III
+hold: S
+status: '+1'
+logo: shockwaveriders.png
+description: >
+    Anonimowa grupa informacyjnych anarchistów. Wierzą, że dla dobra metaludzkości należy wprowadzić jak najszerszy dostęp do wolnej informacji.
+    Ich <i>modus operandi</i> zakłada zdobywanie podstępem informacji, które są trzymane w sekrecie, a następnie publikowanie ich w otwartej Macierzy.
+    Najczęściej dane te należą z oczywistych względów do wielkich graczy Szóstego Świata, czyli megakorporacji.
+
+    Pełnią funkcję <i>de facto</i> służby wywiadowczej Flux State. Jednak, z uwagi na niekontrolowane publikowanie każdej sekretnej informacji, czasem
+    publikują także materiały ostatecznie krzywdzące lokalne organizacje. sniff. Czysta ideologia.
+
+    Jednym ze sposobów, w jaki zdobywają informacje, jest handel wymienny - przysługa za przysługę. 
+hq: 
+    desc: >
+        Klub Labirynt Sokoła - znany w całym Berlinie rave club połączony z internet cafe. Bardzo często dzieją się tam muzyczne i psychodeliczne eventy
+        połączone z pokazami softwarowymi i technologicznymi; dostęp do Macierzy jest przy każdym stole.
+
+        Jeżeli ktoś chce przekazać jakieś informacje grupie, to udaje się właśnie tam; ale nikt nie wie, jak dokładnie wyglądają członkowie SWR.
+    img: schockwellenreiter_club.jpg
+    location:
+        map: [[1230, 1220]]
+assets: 
+    - Klub i powiązany z nim własny węzeł Macierzy, w którym przeprowadzane są eventy BTL.
+    - Dostęp do Shadownetu z węzła.
+    - <<Loża techniczna - przez klub przewija się tyle poweruserów Shadownetu i technomancerów, że powstała tam technologiczna linia many, z której korzystają członkowie.>>
+    - <<Agenci w wielu korporacjach i organizacjach - fortune roll, krytyk to ideowy double agent, sukces to luźny współpracownik, partial sukces to outdated intel.>>
+npcs:
+    - name: Anne Archiste
+      desc: technomancer, specjalistka od magicznych metod pokonywania zabezpieczeń, zaginiona<<, elfka, bezimplantowa, ugodowa, inteligentna>>
+    - name: imperative
+      desc: decker, hobgoblin<<, tchórzliwy, sprytny, uzależniony od BTL, implanty neuralne>> 
+    - name: Zeitgeist
+      desc: haker, spokesman<<, charyzmatyczny, specjalista od przebrań, custom cyberdeck, ideowiec>> 
+friends:
+    - Flux State
+    - Antifaschistische Aktion Berlin
+    - Liga de la Liberacion Metahumana
+    - Anarchistische Schwarze Kreuz
+enemies:
+    - Humanis Policlub
+    - Aztechnology
+    - AG Chemie
+    - Lord Scurlock
+clocks:
+    - size: 12
+      filled: 1
+      desc: Odnaleźć Anne.
+    - size: 6
+      filled: 0
+      desc: Pozyskanie danych korporacyjnych.

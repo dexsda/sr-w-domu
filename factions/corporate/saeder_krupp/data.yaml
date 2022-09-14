@@ -1,0 +1,46 @@
+name: Saeder-Krupp Schwerindustriegesellschaft
+tier: VII
+hold: W
+status: '0'
+logo: saeder_krupp.png
+description: >
+    Druga największa na świecie megakorporacja, z bazą w Essen w Niemczech. Na jej czele jako CEO i jedyny shareholder stoi Wielki Smok Lofwyr, który traktuje firmę przejętą podstępem w latach 20tych jako swój hoard. Znany z mikromanagementu zarówno swojegu biznesu jak i zatrudnionych Shadowrunnerów, oraz z braku tolerancji dla porażek. W Szóstym Świecie istnieje o nim powiedzenie - nigdy nie czyń układów ze smokiem.
+
+    S-K zajmuje się głównie przemysłem ciężkim. Od czasu, gdy Saeder-Krupp straciło miejsce największej na świecie korporacji na rzecz Mitsuhamy, Lofwyr traktuje japońską firmę jako swojego priorytetowego wroga, i knucie przeciw nim zajmuje mu grom czasu.
+
+    Bieganie dla S-K jest ryzykowne, ale opłacalne. Duża część mikrokorporacji w Niemczech to filie S-K, zatem należy do biegów od nieznanych ludzi podchodzić ostrożnie.
+hq: 
+    desc: >
+        W Berlinie ich siedzibą jest dzielnica S-K Templehof, z samowystarczalną arkologią. S-K kontroluje główne lotnisko, co pozwala Lofwyrowi wiedzieć, co i kto przyjeżdża do Berlina - a przynajmniej do jego korporacyjnej części.
+
+        Lofwyra niezmiernie denerwuje widok Flux State z najwyższych pięter wieżowca; jednak ostatnimi czasy nie jest w stanie osiągnąć żadnego progresu w dismantlowaniu lokalnych anarchistów.
+    img: saeder_krupp_hq.jpg
+assets: 
+    - Prywatne terminale na lotnisku Templehof.
+    - Lokalna policja to najemnicy Saeder-Krupp.
+    - W zasadzie nieskończona ilość pieniędzy.
+    - Laboratoria R-D - badania nad Macierzą, magią, technomancją...
+npcs:
+    - name: Lofwyr
+      desc: CEO, Wielki Smok, najbogatsza osoba na świecie, porywczy, mikromanager, chciwy 
+      img: lofwyr.jpg
+    - name: Hans Brackhaus
+      desc: główny fixer Lofwyra, człowiek, ultrakompetentny, sarkastyczny<<, prawdopodobnie sam Lofwyr>>
+      img: brackhaus.jpg
+friends:
+    - Muller-Schlutter Infotech
+    - Berlinrat
+    - Feuerstelle
+    - Merlin Gesselschaft
+enemies:
+    - Flux State
+    - Totem Of The Dragonslayer
+    - Schockwellenreiter
+    - Mitsuhama
+clocks:
+    - size: 8
+      filled: 0
+      desc: Najazd na dzielnicę anarchistyczną Kreuzhain.
+    - size: 8
+      filled: 1
+      desc: Porwanie lokalnego szefa Mitsuhamy.
