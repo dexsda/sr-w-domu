@@ -85,6 +85,13 @@ if __name__ == '__main__':
     print(f"<h2>Aktualny plan lochu</h2>")
     print(f'<p><a href="maps/dungeon-map.jpg"><img src="maps/dungeon-map.jpg" class="map"></a></p>')
     print(f"<h1>Sprawy</h1>")
+    try:
+        clocks = yaml.safe_load(read_in_file(f'current-clocks.yaml', args.gm))
+        for clock in clocks:
+            print(f'<p><span class="clock"><img class="clock" src="staticimgs/clock/{clock["size"]}-{clock["filled"]}.png"> {clock["desc"]}</span></p>')
+    except:
+        pass
+
     print(f'<a href="recaps.html">Recapy</a></h1>')
     print(f"<h1>Frakcje</h1>")
     for type in os.listdir("factions"):
