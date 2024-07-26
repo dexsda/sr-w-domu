@@ -10,7 +10,7 @@ def print_head():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shadowrun w domu</title>
+        <title>Damn It Feels Good To Be A Monsta...</title>
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
         <script src="show.js"></script>
     </head>''')
@@ -60,7 +60,7 @@ def read_in_file(filepath, gm):
     return raw_text
 
 def create_image(image_base_name, factions):
-    with Image.open(f'berlin-{image_base_name}.png') as mapimage:
+    with Image.open(f'warzone-map.jpg') as mapimage:
         for faction in factions:
             if 'location' in factions[faction]['hq'] and image_base_name in factions[faction]['hq']['location'] and 'logo' in factions[faction]:
                 logo_image = Image.open(f'generated_files/logos/{factions[faction]["logo"]}')
@@ -68,7 +68,7 @@ def create_image(image_base_name, factions):
                 for coords in factions[faction]['hq']['location'][image_base_name]:
                     mapimage.paste(logo_image, tuple(coords), logo_image)
 
-        mapimage.save(f'generated_files/maps/berlin-{image_base_name}.jpg')
+        mapimage.save(f'generated_files/maps/warzone-{image_base_name}.jpg')
 
 tier_to_num = {"I": 9, "II": 8, "III": 7, "IV": 6, "V": 5, "VI": 4, "VII": 3, "VIII": 2}
 
@@ -82,10 +82,10 @@ if __name__ == '__main__':
     print("<body>")
     print('<div class="wrapper">')
     print(f"<h1>Gracze</h1>")
-    print(f"<h1>Materiały</h1>")
-    print(f'<img src="staticimgs/under_construction.gif">')
-    print(f'<a href="construction.html">Recapy</a></h1>')
-    print(f'<a href="construction.html">Mapki</a></h1>')
+    print(f"<h2>Aktualny plan lochu</h2>")
+    print(f'<p><a href="maps/dungeon-map.jpg"><img src="maps/dungeon-map.jpg" class="map"></a></p>')
+    print(f"<h1>Sprawy</h1>")
+    print(f'<a href="recaps.html">Recapy</a></h1>')
     print(f"<h1>Frakcje</h1>")
     for type in os.listdir("factions"):
         factions = {}
@@ -105,10 +105,8 @@ if __name__ == '__main__':
 
     if not args.gm:
         create_image('map', factions_total)
-        create_image('mitte', factions_total)
     print(f"<h1>Mapki</h1>")
-    print(f'<p><a href="maps/berlin-mitte.jpg"><img src="maps/berlin-mitte.jpg" class="map"></a></p>')
-    print(f'<p><a href="maps/berlin-map.jpg"><img src="maps/berlin-map.jpg" class="map"></a></p>')
+    print(f'<p><a href="maps/warzone-map.jpg"><img src="maps/warzone-map.jpg" class="map"></a></p>')
 
     print('</div>')
     print("</body>")

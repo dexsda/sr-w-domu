@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo');
 h1,h2, h3, h4, h5 {
-    color: #FFC600;
+    color: #58180D;
+    font-family: 'Cardo', serif;
 }
 h4.factionlink {
     cursor: pointer;
@@ -7,6 +9,9 @@ h4.factionlink {
 
 h4 .logo {
     vertical-align: middle;
+}
+.releasetitle {
+    color: #940000;
 }
 
 img.clock {
@@ -24,10 +29,18 @@ img.map {
     max-width: 1000px;
 } 
 
-body {
-    background-color: black;
-    color: #C0C0C0;
+@media screen {
+  html,
+  body {
+    background: #000;
+    margin: 0;
+    padding: 0;
     font-family: monospace;
+  }
+  body {
+    background: #fff;
+    background: url('bg.png');
+  }
 }
 
 span .clock {
@@ -39,6 +52,47 @@ div.factionbox {
     border-color: #E8A20C;
     overflow: hidden;
     padding: 5px;
+}
+
+div.recapbox {
+    border-bottom: 1px solid #E8A20C;
+    overflow: hidden;
+    padding: 5px;
+}
+
+div.releasebox {
+    font-family: consolas, monaco, monospace;
+    font-size: 12px;
+    border-left: 1px solid #00d4ff;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #001014;
+    margin-bottom: 25px;
+}
+
+div.commentbox {
+    border-left: 1px solid #00d4ff;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #001014;
+    margin-bottom: 3px;
+}
+
+div.darker {
+    background-color: #000810;
+}
+
+div.filebox {
+    text-align: right;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+div.emailheader {
+    overflow: hidden;
+    padding: 5px;
+    font-style: italic;
+    color: #00d4ff;
 }
 
 div.wrapper {
